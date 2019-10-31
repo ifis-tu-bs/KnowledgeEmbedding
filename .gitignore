@@ -143,6 +143,8 @@ tests/tmp
 /OpenKE/
 
 # Tensorflow models
+/checkpoints/
+/embeddings
 /checkpoint
 /*.data-*
 /*.index

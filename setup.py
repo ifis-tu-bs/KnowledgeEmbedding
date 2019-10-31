@@ -24,4 +24,7 @@ setup(
         'tensorflow==1.8.0',
         'pandas==0.23.3',
     ],
+    entry_points={
+        'console_scripts': ['pyke=pyke.bin.pyke:cli'],
+    }
 )
